@@ -4036,7 +4036,7 @@
 		will-change: transform, opacity;
 		position: relative;
 		padding: 2.4rem;
-		background: #ffebee;
+		background: #1c1d26;
 		background-clip: padding-box;
 		box-shadow: 0 12px 15px 0 rgba(0,0,0,0.25);
 		opacity: 0;
@@ -4072,7 +4072,7 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: #ffebee;
+		background: #23242f;
 		-webkit-transform: none;
 				transform: none;
 		opacity: 1;
@@ -4082,7 +4082,7 @@
 	  }
 
 	  .demo-btns header {
-		background: #ffebee;
+		background: #1c1d26
 		display: flex;
 		align-items: center;
 	  }
