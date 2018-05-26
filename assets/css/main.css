@@ -4053,11 +4053,8 @@
 		position: relative;
 		display: inline-block;
 		padding: 1.2rem 2.4rem;
-		color: rgba(0,0,0,0.7);
 		line-height: 1;
 		cursor: pointer;
-		background: #ffebee;
-		box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
 		-webkit-tap-highlight-color: rgba(0,0,0,0);
 		-webkit-user-select: none;
 		   -moz-user-select: none;
@@ -4067,9 +4064,6 @@
 	  }
 	  .modal__trigger--active {
 		z-index: 10;
-	  }
-	  .modal__trigger:hover {
-		background: #e5d3d6;
 	  }
 	  #modal__temp {
 		will-change: transform, opacity;
@@ -4088,7 +4082,6 @@
 	  }
 
 	  .demo-btns header {
-		padding: 7vh 10vw;
 		background: #ffebee;
 		display: flex;
 		align-items: center;
@@ -4099,9 +4092,6 @@
 		font-weight: 300;
 	  }
 	  .demo-btns .info {
-		background: #f44336;
-		padding: 3vh 10vw;
-		height: 70vh;
 		display: flex;
 		align-items: center;
 		justify-content: center;
