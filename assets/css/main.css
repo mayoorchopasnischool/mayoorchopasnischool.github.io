@@ -1584,7 +1584,7 @@
 	}
 
 		a:hover {
-			color: #e44c65 !important;
+			color: #0099ff !important;
 			border-bottom-color: transparent;
 		}
 
@@ -3221,7 +3221,7 @@
 			}
 
 			.dropotron > li.active > a, .dropotron > li.active > span {
-				color: #e44c65;
+				color: #0099ff;
 			}
 
 		.dropotron.level-0 {
@@ -3311,7 +3311,7 @@
 						}
 
 					#header nav ul li.active > a, #header nav ul li.active > span {
-						color: #e44c65;
+						color: #0099ff;
 					}
 
 					#header nav ul li > ul {
