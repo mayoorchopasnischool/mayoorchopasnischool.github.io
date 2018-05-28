@@ -3834,7 +3834,7 @@ body.is-touch #banner {
 /*Scrollbar*/
 
 ::-webkit-scrollbar {
-	width: 10px;
+	width: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -3846,5 +3846,5 @@ body.is-touch #banner {
 ::-webkit-scrollbar-thumb {
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
-	background: #0e0f13;
+	background: #a4a5ac;
 }
