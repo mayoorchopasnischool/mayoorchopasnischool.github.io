@@ -3166,8 +3166,9 @@ body.landing .dropotron.level-0 {
 	padding-top: 3.5em;
 }
 
+/*her boi*/
 #header {
-	background: rgba(39, 40, 51, 0.965);
+	background:#1C1D26;
 	box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 	cursor: default;
 	height: 3.5em;
