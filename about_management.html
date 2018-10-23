@@ -9,9 +9,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/material.css" />
+    <!-- <link rel="stylesheet" href="assets/css/materialgrid.css" /> -->
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 </head>
+<style>
+    .tooltip {
+        position: relative;
+    }
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        left: auto;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+    }
+
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
+
+</style>
 
 <body>
     <div id="page-wrapper">
@@ -99,68 +126,173 @@
                 <header class="major">
                     <h2>Management</h2>
                 </header>
+                <!-- Modal Trigger -->
+                <!-- <div class="row">
+  <div class="tooltip"><a class="waves-effect waves-light modal-trigger" href="#modal1"><img class="col s4 m3 l2" src="images/arch.png"></a><span class="tooltiptext">Archery</span></div>
+  <div class="tooltip"><a class="waves-effect waves-light modal-trigger" href="#modal1"><img class="col s4 m3 l2" src="images/singing.png"></a><span class="tooltiptext">Singing</span></div>
+  <a class="waves-effect waves-light modal-trigger" href="#modal1"><img class="col s4 m3 l2" src="images/football.png"></a>
+  <a class="waves-effect waves-light modal-trigger" href="#modal1"><img class="col s4 m3 l2" src="images/skate.png"></a>
+  <a class="waves-effect waves-light modal-trigger" href="#modal1"><img class="col s4 m3 l2" src="images/longjump.png"></a>
+  <a class="waves-effect waves-light modal-trigger" href="#modal1"><img class="col s4 m3 l2" src="images/paint.png"></a>
+  <a class="waves-effect waves-light modal-trigger" href="#modal1"><img class="col s4 m3 l2" src="images/martial.png"></a>
+  <a class="waves-effect waves-light modal-trigger" href="#modal1"><img class="col s4 m3 l2" src="images/horse.png"></a>
+  <a class="waves-effect waves-light modal-trigger" href="#modal1"><img class="col s4 m3 l2" src="images/indianmusic.png"></a>
+  <a class="waves-effect waves-light modal-trigger" href="#modal1"><img class="col s4 m3 l2" src="images/yoga.png"></a>
+  <a class="waves-effect waves-light modal-trigger" href="#modal1"><img class="col s4 m3 l2" src="images/westernmusic.png"></a>
+  <a class="waves-effect waves-light modal-trigger" href="#modal1"><img class="col s4 m3 l2" src="images/tt.png"></a>
+  <a class="waves-effect waves-light modal-trigger" href="#modal1"><img class="col s4 m3 l2" src="images/swimming.png"></a>
+  <a class="waves-effect waves-light modal-trigger" href="#modal1"><img class="col s4 m3 l2" src="images/quick calculation.png"></a>
+  <a class="waves-effect waves-light modal-trigger" href="#modal1"><img class="col s4 m3 l2" src="images/atheletics.png"></a>
+  <a class="waves-effect waves-light modal-trigger" href="#modal1"><img class="col s4 m3 l2" src="images/badminton.png"></a>
 
-                <!-- Text -->
-
-
-                <!-- Footer -->
-                <footer id="footer">
-
+</div> -->
+                <center>
                     <div class="box alt">
                         <div class="row uniform">
-                            <div class="6u 6u(medium) 6u(xsmall)">
-                                Quick Links:-
-                                <ul class="copyright">
-                                    <li><a href="about_team.html">Meet Our Staff</a></li>
-                                    <li>Glimpses of Summer Camp 2018</li>
-                                    <li>Mayoor Online</li>
-                                </ul>
-                            </div>
-                            <div class="6u$ 6u$(medium) 6u$(xsmall)">
-                                Careers:-
-                                <ul class="copyright">
-                                    <li>Current Openings</li>
-                                    <li>Post your Resume</li>
-                                </ul>
-                            </div>
-                            <div class="12u 12u(medium) 12u(xsmall)">
-                                Contact:-
-                                <ul class="copyright">
-                                    <li><a href="https://goo.gl/maps/5k3e99mbpX32">Mayoor Chopasni School, Chopasni Road, Jodhpur, Rajasthan</a></li>
-                                    <li><a href=" tel:02912753487 ">0291-275-3487</a></li>
-                                    <li><a href="mailto:mcsjodhpur@gmail.com">mcsjodhpur@gmail.com</a></li>
-                                </ul>
-                            </div>
+                            <section class="3u 6u(medium) 12u$(xsmall)">
+                                <span>
+									<a class="waves-effect waves-light modal-trigger" href="#modala">
+										<img style="width: 150px;height: 150px" src="images/madhu_maamc.JPG">
+									</a>
+								</span>
+                                <h3>Madhu Rathore</h3>
+                                <p>P.R.O.</p>
 
+                            </section>
+                            <section class="3u 6u$(medium) 12u$(xsmall)">
+                                <span>
+									<a class="waves-effect waves-light modal-trigger" href="#modalb">
+										<img style="width: 150px;height: 150px" src="images/dsirc.JPG">
+									</a>
+								</span>
+                                <h3>Deepak Mantri</h3>
+                                <p>Accountant</p>
 
+                            </section>
+                            <section class="3u 6u(medium) 12u$(xsmall)">
+                                <span>
+									<a class="waves-effect waves-light modal-trigger" href="#modalc">
+										<img style="width: 150px;height: 150px" src="images/d1sirc.JPG">
+									</a>
+								</span>
+                                <h3>Dhirendra Soni</h3>
+                                <p>Accountant</p>
+
+                            </section>
+                            <section class="3u$ 6u(medium) 12u$(xsmall)">
+                                <span>
+									<a class="waves-effect waves-light modal-trigger" href="#modald">
+										<img style="width: 150px;height: 150px" src="images/ssirc.JPG">
+									</a>
+								</span>
+                                <h3>Shaitan Singh</h3>
+                                <p>O.S.</p>
+
+                            </section>
+                </center>
+                </div>
+                </div>
+
+                <!-- Modal Structures -->
+                <div class="box alt">
+                    <div id="modala" class="modal">
+                        <div class="modal-content">
+                            <div class="row uniform">
+                                <img class="12u$ 12u$(medium) 12u$(xsmall)" style="max-width: 100%;" src="images/madhu_maam.JPG">
+                            </div>
                         </div>
                     </div>
-                    <ul class="icons">
-                        <li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-                        <li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-                        <li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                        <li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-                        <li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-                        <li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
-                    </ul>
-                    <ul class="copyright">
-                        <li>&copy; Mayoor Chopasni School Jodhpur. All rights reserved.</li>
-                        <li>DEVELOPED BY: <b>VIRAJ MATHUR</b></li>
-                        <li>Designed By: <b>thedroidwizard</b></li>
-                    </ul>
-                </footer>
+                </div>
 
+                <div class="box alt">
+                    <div id="modalb" class="modal">
+                        <div class="modal-content">
+                            <div class="row uniform">
+                                <img class="12u$ 12u$(medium) 12u$(xsmall)" style="max-width: 100%;" src="images/dsir.JPG">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box alt">
+                    <div id="modalc" class="modal">
+                        <div class="modal-content">
+                            <div class="row uniform">
+                                <img class="12u$ 12u$(medium) 12u$(xsmall)" style="max-width: 100%;" src="images/d1sir.JPG">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box alt">
+                    <div id="modald" class="modal">
+                        <div class="modal-content">
+                            <div class="row uniform">
+                                <img class="12u$ 12u$(medium) 12u$(xsmall)" style="max-width: 100%;" src="images/ssir.JPG">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+
+            <div class="box alt">
+                <div class="row uniform">
+                    <div class="6u 6u(medium) 6u(xsmall)">
+                        Quick Links:-
+                        <ul class="copyright">
+                            <li><a href="about_team.html">Meet Our Staff</a></li>
+                            <li>Glimpses of Summer Camp 2018</li>
+                            <li>Mayoor Online</li>
+                        </ul>
+                    </div>
+                    <div class="6u$ 6u$(medium) 6u$(xsmall)">
+                        Careers:-
+                        <ul class="copyright">
+                            <li>Current Openings</li>
+                            <li>Post your Resume</li>
+                        </ul>
+                    </div>
+                    <div class="12u 12u(medium) 12u(xsmall)">
+                        Contact:-
+                        <ul class="copyright">
+                            <li><a href="https://goo.gl/maps/5k3e99mbpX32">Mayoor Chopasni School, Chopasni Road, Jodhpur, Rajasthan</a></li>
+                            <li><a href=" tel:02912753487 ">0291-275-3487</a></li>
+                            <li><a href="mailto:mcsjodhpur@gmail.com">mcsjodhpur@gmail.com</a></li>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
+            <ul class="icons">
+                <li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; Mayoor Chopasni School Jodhpur. All rights reserved.</li>
+                <li>DEVELOPED BY: <b>VIRAJ MATHUR</b></li>
+                <li>Designed By: <b>thedroidwizard</b></li>
+            </ul>
+        </footer>
 
-            <!-- Scripts -->
-            <script src="assets/js/jquery.min.js"></script>
-            <script src="assets/js/jquery.scrolly.min.js"></script>
-            <script src="assets/js/jquery.dropotron.min.js"></script>
-            <script src="assets/js/jquery.scrollex.min.js"></script>
-            <script src="assets/js/skel.min.js"></script>
-            <script src="assets/js/util.js"></script>
-            <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-            <script src="assets/js/main.js"></script>
+    </div>
+
+    <!-- Scripts -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
 </body>
 
